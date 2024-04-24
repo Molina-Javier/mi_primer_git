@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Perfil</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mi Perfil</h1>
+      <img src="./me.jpg" alt="Foto Javier Molina" />
+    </header>
+    <main>
+      <section>
+        <h2>Mis datos personales:</h2>
+        <ul>
+          <li><b>Nombre:</b> Javier</li>
+          <li><b>Apellido:</b> Molina</li>
+          <li><b>Edad:</b> 38 años</li>
+          <li><b>Email:</b> molina@javier.es@gmail.com</li>
+        </ul>
+      </section>
+
+      <section>
+        <p>Soy de Río Negro, hincha de River, Brewmaster y fan de la pesca.</p>
+      </section>
+
+      <section>
+        <h2>Contacto</h2>
+        <form>
+          <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Juan Gonzalez" required />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="email@gmail.com" id="email" />
+          </div>
+
+          <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" placeholder="18" min="0" max="99" />
+          </div>
+          <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" />
+          </div>
+
+          <div>
+            <input type="checkbox" id="terminos" required />
+            <label for="terminos"
+              >Acepto los términos y condiciones
+              <a href="#">Ver términos</a></label
+            >
+          </div>
+          <div>
+            <label for="mensaje">Mensaje:</label>
+            <br />
+            <textarea
+              id="mensaje"
+              cols="40"
+              rows="10"
+              maxlength="70"
+              placeholder="Deja tu mensaje"
+            ></textarea>
+          </div>
+
+          <div>
+            <input type="submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Contáctame a través de:</p>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+      <hr />
+      <p>Todos los derechos reservados. 2024</p>
+    </footer>
+  </body>
+</html>
